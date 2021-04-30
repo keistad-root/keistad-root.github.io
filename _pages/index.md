@@ -29,25 +29,25 @@ Keistad is nickname of me, Choi. Keistad is pronounced with German. I want to st
   - ALICE team in CERN want to upgrade ITS form 2 to 3 during LS2.
   - I find my role in ITS upgrade project.
 
-  ## Education and experience
+## Education and experience
 
-- graduated Duksang elementary school (Mar 2005 ~ Feb 2011)
-- graduated Silla middle school (Mar 2011 ~ Feb 2014)
-- graduated Sungdo high school (Mar 2014 ~ Feb 2017)
-- Physics, Pusan national university (Mar 2017 ~ Feb 2019 and Jan 2021 ~ Current)
-- Airman in POL, 11th wings (Mar 2019 ~ Jan 2021)
-- Intern, HIPEx (Jan 2021 ~ Current)
+  - graduated Duksang elementary school (Mar 2005 ~ Feb 2011)
+  - graduated Silla middle school (Mar 2011 ~ Feb 2014)
+  - graduated Sungdo high school (Mar 2014 ~ Feb 2017)
+  - Physics, Pusan national university (Mar 2017 ~ Feb 2019 and Jan 2021 ~ Current)
+  - Airman in POL, 11th wings (Mar 2019 ~ Jan 2021)
+  - Intern, HIPEx (Jan 2021 ~ Current)
 
 ## How languages can I do?
 
-- Korean : C2
-- English : A1
-- German : A1
+  - Korean : C2
+  - English : A1
+  - German : A1
 
 ## How programming languages can I do?
 
-- C++(Root) : basic
-- Mathematica : basic
+  - C++(Root) : basic
+  - Mathematica : basic
 
 ### Recent Posts
 
