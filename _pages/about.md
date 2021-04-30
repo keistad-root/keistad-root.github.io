@@ -5,31 +5,16 @@ narrow: true
 title: More info about me
 ---
 
-## Who am I? 
+## Who was I? 
 
-{% include components/intro.md %}
+I graduated Sungdo Highschool in Feb 2017 and enter Pusan Nat'l University. I wanted to be Physicist so I chose my subject as Physics. When I was freshman, I entered Soseum, the Korean traditional dance club. In the club, I roled to play sangmo. At the sophomore time, I was kapellmeister of my club. At Mar 18th 2019, I enlisted to the Korean Airforce and was deployed with the 11th fighter wing. I worked in POL. I got discharged at Jan 11th 2021 as a staff sergeant.
 
-## What I studied and working?
+## Who am I?
 
-- Making Vacuum Chamber
-  - 31 Dec 2020~Current
-  - My lab want to search new paradigm, trillision, in colling experiment.
-  - We need low vacuum(~1mbar) because of lifetime of alpha particle.
-  - I test vacuum chamber to make low vacuum in this project.
-- Making SQM 2022 Homepage
-  - 28 Apr 2021~Current
-  - The SQM (Strangeness in Quark Matter) is a international conference. It will hold in busan if the Covid-19 is end.
-  - My role is making SQM 2022 homepage, etc...
-- ITS3 Upgrade
-  - 16 Apr 2021~Current
-  - ALICE team in CERN want to upgrade ITS form 2 to 3 during LS2.
-  - I find my role in ITS upgrade project.
+I return to school after honor discharge. I work in HIPEx by intern. These days, I study a vacuum chamber to use in 'Trillision' experiment. The trillision means that 3 particles crash eachother. We set one fixed target and shoot two beams. Then the trillision may occurs. The probability to success is very low, but the null value is also meaningful.
+For following SQM 2022 conference, I make SQM 2022 Homepage. SQM means Strangeness in Quark Matter. If I participate by a stuff in SQM, I will be good experience and good chance to study culture and mind of foreign scientists.
+And I participate in ITS3 Upgrade project. ALICE will go to LS2, so ALICE team in CERN want to improve ITS form 2 to 3 during LS2. I am finding my role in this project. This is international project, thus I expect that it will be good chance to announce me to foreign labaratory.
 
-## Education and experience
+## Who do I want to be?
 
-- graduated Duksang elementary school (Mar 2005 ~ Feb 2011)
-- graduated Silla middle school (Mar 2011 ~ Feb 2014)
-- graduated Sungdo high school (Mar 2014 ~ Feb 2017)
-- Physics, Pusan national university (Mar 2017 ~ Feb 2019 and Jan 2021 ~ Current)
-- Airman in POL, 11th wings (Mar 2019 ~ Jan 2021)
-- Intern, HIPEx (Jan 2021 ~ Current)
+I want to study nuclear physics in Germany and cowork with CERN. I don't know that I have a talent in which of areas. But if I do my best and enjoy physics, my efforts will never betray me.
