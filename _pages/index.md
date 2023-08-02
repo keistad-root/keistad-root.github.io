@@ -2,52 +2,23 @@
 layout: defaults/page
 permalink: index.html
 narrow: true
-title: Welcome to Keistad's blog
+title: KEIWIKI에 오신 것을 환영합니다.
 ---
 
-## Who am I? 
+## 페이지의 목적
 
 {% include components/intro.md %}
 
-## Who is Keistad?
+[여기에 해당 문서의 상세한 설명이 제시되어 있습니다.]({{ site.baseurl}}{% link _pages/about.md %})
 
-Keistad is nickname of me, Choi. Keistad is pronounced with German. I want to study Physics in German. So, I studied German and I want to make German nickname. Keistad isn't real German name, but please pronounce it with German.
+## 페이지의 사용 방법
+해당 문서의 개시글들은 마크다운 문법으로 작성합니다.
 
-## What I studied and working?
+[Documentation]({{ site.baseurl }}{% link list/projects.md %})에는 이 문서에서 다루는 주제들과 그 주제들에 대한 간단한 설명들이 배치될 것입니다.
 
-- Making Vacuum Chamber
-  - 31 Dec 2020~Current
-  - My lab want to search new paradigm, trillision, in colling experiment.
-  - We need low vacuum(~1mbar) because of lifetime of alpha particle.
-  - I test vacuum chamber to make low vacuum in this project.
-- Making SQM 2022 Homepage
-  - 28 Apr 2021~Current
-  - The SQM (Strangeness in Quark Matter) is a international conference. It will hold in busan if the Covid-19 is end.
-  - My role is making SQM 2022 homepage, etc...
-- ITS3 Upgrade
-  - 16 Apr 2021~Current
-  - ALICE team in CERN want to upgrade ITS form 2 to 3 during LS2.
-  - I find my role in ITS upgrade project.
+그리고 각각에 대한 고찰이나 상세한 설명 등은 [Posts]({{ site.baseurl }}{% link list/posts.html %})에 배치될 것이며 Documentation에 링크가 배치될 예정입니다.
 
-## Education and experience
-
-  - graduated Duksang elementary school (Mar 2005 ~ Feb 2011)
-  - graduated Silla middle school (Mar 2011 ~ Feb 2014)
-  - graduated Sungdo high school (Mar 2014 ~ Feb 2017)
-  - Physics, Pusan national university (Mar 2017 ~ Feb 2019 and Jan 2021 ~ Current)
-  - Airman in POL, 11th wings (Mar 2019 ~ Jan 2021)
-  - Intern, HIPEx (Jan 2021 ~ Current)
-
-## How languages can I do?
-
-  - Korean : C2
-  - English : A1
-  - German : A1
-
-## How programming languages can I do?
-
-  - C++(Root) : basic
-  - Mathematica : basic
+<hr />
 
 ### Recent Posts
 

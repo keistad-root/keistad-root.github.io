@@ -1,5 +1,5 @@
-- caption: Friday Theme on GitHub
-  href: https://github.com/sfreytag/friday-theme
+- caption: Keistad-root on GitHub
+  href: https://github.com/keistad-root/keistad-root.github.io
   icon: entypo/github.svg
 
 - caption: Stack Overflow
@@ -14,7 +14,7 @@
   href: https://www.twitter.com
   icon: entypo/twitter.svg
 
-- caption: London
-  href: https://www.google.co.uk/maps/place/London/@51.528308,-0.3817765,10z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5073509!4d-0.1277583
+- caption: Busan
+  href: https://www.google.com/maps/place/대한민국+부산광역시/@35.189234,128.8688547,11z/data=!3m1!4b1!4m6!3m5!1s0x3568eb6de823cd35:0x35d8cb74247108a7!8m2!3d35.2100142!4d129.0688702!16zL20vMGh2N2w?entry=ttu
   icon: entypo/location-pin.svg
 

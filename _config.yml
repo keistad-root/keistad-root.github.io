@@ -4,15 +4,18 @@ permalink: /:categories/:year/:month/:day/:title.html
 # Conversion
 markdown:         kramdown
 highlighter:      rouge
-excerpt_separator: <!--more-->
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
 
 # Config for your profile.
-title:            Keistad's blog            # Site title
+title:            KEIWIKI            # Site title
 name:             Yongjun Choi            # Your name
-avatar:           /theme/img/avatar.jpg   # Path to an avatar image
+avatar:           /theme/img/photo.JPG   # Path to an avatar image
 
 # The theme uses the baseurl throughout, which is useful for running the entire
 # site under a subdir, like for this GitHub Pages deployment as a project site.
+# Use "" when runnign the site out of the root of a domain.
 baseurl: ""
 
 # Add a directory to hold misc pages, just to keep the root directory clean.

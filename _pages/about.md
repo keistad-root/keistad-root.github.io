@@ -2,19 +2,36 @@
 layout: defaults/page
 permalink: about.html
 narrow: true
-title: More info about me
+title: 이 페이지에 대한 더 많은 설명
+images:
+  - https://images.unsplash.com/photo-1421789665209-c9b2a435e3dc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5b1016b885e7438c4633109d77368d4d&auto=format&fit=crop&w=1651&q=80
+  - https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=468a8c18f5d811cf03c654b653b5089e&auto=format&fit=crop&w=1650&q=80
+  - https://images.unsplash.com/photo-1504626835342-6b01071d182e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=975855d515c9d56352ee3bfe74287f2b&auto=format&fit=crop&w=1651&q=80
 ---
 
-## Who was I? 
+## 페이지의 목적
 
-I graduated Sungdo Highschool in Feb 2017 and enter Pusan Nat'l University. I wanted to be Physicist so I chose my subject as Physics. When I was freshman, I entered Soseum, the Korean traditional dance club. In the club, I roled to play sangmo. At the sophomore time, I was kapellmeister of my club. At Mar 18th 2019, I enlisted to the Korean Airforce and was deployed with the 11th fighter wing. I worked in POL. I got discharged at Jan 11th 2021 as a staff sergeant.
+{% include components/intro.md %}
 
-## Who am I?
+## To-do lists
+- [ ] APTS
+- [X] PID project
 
-I return to school after honor discharge. I work in HIPEx by intern. These days, I study a vacuum chamber to use in 'Trillision' experiment. The trillision means that 3 particles crash eachother. We set one fixed target and shoot two beams. Then the trillision may occurs. The probability to success is very low, but the null value is also meaningful.
-For following SQM 2022 conference, I make SQM 2022 Homepage. SQM means Strangeness in Quark Matter. If I participate by a stuff in SQM, I will be good experience and good chance to study culture and mind of foreign scientists.
-And I participate in ITS3 Upgrade project. ALICE will go to LS2, so ALICE team in CERN want to improve ITS form 2 to 3 during LS2. I am finding my role in this project. This is international project, thus I expect that it will be good chance to announce me to foreign labaratory.
+## 상세 소개
+- 이름
+  - 최용준
+- 생년월일
+  - 1998년 07월 16일
+- 소속
+  - 부산대학교 중이온물리실험실
+  - 유럽핵물리연구소 거대이온충돌실험
+- 신분
+  - 석사과정생
+- 하고 있는 연구
+  - 디지털 실리콘 검출기를 이용한 저에너지 입자 식별
+  - 아날로그 검출기의 특성 조사
+- 서비스잡
+  - 회의 안내 및 프로토콜 작성 (~07.2022)
+  - 홈페이지 관리
+  - 네트워크 유지/보수
 
-## Who do I want to be?
-
-I want to study nuclear physics in Germany and cowork with CERN. I don't know that I have a talent in which of areas. But if I do my best and enjoy physics, my efforts will never betray me.
