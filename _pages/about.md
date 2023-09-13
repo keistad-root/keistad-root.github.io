@@ -14,8 +14,26 @@ images:
 {% include components/intro.md %}
 
 ## To-do lists
-- [ ] APTS
-- [X] PID project
+- APTS
+  - Gain Calibration을 적용해서 APTS 펄스 그리기
+  - Proximity board 비교 실험
+    - Gabriela에게 연락하여 데이터 받기
+  - 3D 프린터로 방사선원 거치대 제작하기
+  - 90Sr을 이용한 실험
+  - 241Am을 이용한 실험
+- PID project
+  - 모자익 보드 수리
+  - Thrshold 실험
+  - 호일 두께 및 거리 실험
+  - 55Fe를 이용한 실험
+  - 90Sr을 이용한 실험
+  - KPS 발표
+- 잡일
+  - 방사선종사자 자료들 보내기
+    - 학교
+    - KOMAC
+  - UPS 자료 보내기
+  - 퀄리파이
 
 ## 상세 소개
 - 이름
