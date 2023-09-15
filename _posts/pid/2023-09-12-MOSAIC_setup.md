@@ -5,5 +5,6 @@ tags:
   - MOSAIC
   - ALPIDE
 ---
-
+<!--
 ![모자익 셋업]({{site.baseurl}}{% link theme/img/pid/MOSAIC Setup.png %}){:width="100%"}
+-->

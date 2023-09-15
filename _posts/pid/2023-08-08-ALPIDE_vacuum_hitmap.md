@@ -2,6 +2,7 @@
 title: 진공 중 결과 hitmap과 clustermap
 tag: ALPIDE, PID
 ---
+<!--
 
 - Hitmap
   - Am-241 방사선원을 차폐하지 않은 경우 (alpha + gamma)
@@ -43,3 +44,4 @@ tag: ALPIDE, PID
 
 
 
+-->

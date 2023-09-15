@@ -13,9 +13,8 @@ images:
 
 {% include components/intro.md %}
 
-## To-do lists
+## To-do lists (2023/09/15 14:28)
 - APTS
-  - Gain Calibration을 적용해서 APTS 펄스 그리기
   - Proximity board 비교 실험
     - Gabriela에게 연락하여 데이터 받기
   - 3D 프린터로 방사선원 거치대 제작하기
@@ -29,10 +28,6 @@ images:
   - 90Sr을 이용한 실험
   - KPS 발표
 - 잡일
-  - 방사선종사자 자료들 보내기
-    - 학교
-    - KOMAC
-  - UPS 자료 보내기
   - 퀄리파이
 
 ## 상세 소개

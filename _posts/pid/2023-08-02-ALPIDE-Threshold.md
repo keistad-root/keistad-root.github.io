@@ -4,6 +4,7 @@ tags:
   - ALPIDE
   - Threshold
 ---
+<!--
 
 ## A4W975R7
 ![Threshold map]({{base.url}}{% link theme/img/pid/threshold/Threshold_map_A4W975R7.png %}){: width="45%"}
@@ -19,3 +20,4 @@ tags:
 
 ## Compare
 ![Compare Threshold]({{base.url}}{% link theme/img/pid/threshold/Comparison.png %}){: width="100%"}
+-->
