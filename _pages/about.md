@@ -22,6 +22,8 @@ images:
   - 241Am을 이용한 실험
 - PID project
   - 모자익 보드 수리
+    - KOMAC에 컨택
+      - part list 보내기
   - Thrshold 실험
   - 호일 두께 및 거리 실험
   - 55Fe를 이용한 실험
