@@ -3,5 +3,6 @@ _site
 .jekyll-cache
 .sass-cache
 .bundle
-_posts/not_approval
+theme/img/apts
+_posts/apts
 _projects/not_approval
