@@ -14,23 +14,36 @@ images:
 {% include components/intro.md %}
 
 ## To-do lists (2023/09/15 14:28)
+<!--
+한 일은 빨산색: <span style="color: red"></span>
+하고 있는 일은 노란 형광팬: <span style="background-color: yellow"></span>
+-->
+<span style="color: red">한 일</span>
+
+<span style="background-color: yellow">하고 있는 일</span>
 - APTS
-  - Proximity board 비교 실험
-    - Gabriela에게 연락하여 데이터 받기
+  - Proximity board 비교 실험 with CERN
+    - <span style="color: red">Gabriela에게 연락하여 데이터 받기</span>
+    - Inha board를 이용해서 Fe-55 실험
   - 3D 프린터로 방사선원 거치대 제작하기
+    - <span style="background-color: yellow">55Fe 셋업 인쇄</span>
+    - 90Sr, 241Am 셋업 인쇄
   - 90Sr을 이용한 실험
   - 241Am을 이용한 실험
 - PID project
   - 모자익 보드 수리
-    - KOMAC에 컨택
-      - part list 보내기
+    - Adaptor board KOMAC에 컨택
+      - <span style="color: red">part list 보내기</span>
+      - <span style="background-color: yellow">견적 받아 진행</span>
   - Thrshold 실험
   - 호일 두께 및 거리 실험
   - 55Fe를 이용한 실험
   - 90Sr을 이용한 실험
   - KPS 발표
 - 잡일
-  - 퀄리파이
+  - <span style="color: red">진해여고 날짜 잡기</span>
+  - <span style="color: red">진해여고 날짜 잡기</span>
+  - <span style="background-color: yellow">퀄리파이</span>
 
 ## 상세 소개
 - 이름
