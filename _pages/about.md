@@ -13,7 +13,7 @@ images:
 
 {% include components/intro.md %}
 
-## To-do lists (2023/09/22 13:14)
+## To-do lists (2023/09/22 16:01)
 <!--
 한 일은 빨산색: <span style="color: red"></span>
 하고 있는 일은 노란 형광팬: <span style="background-color: yellow"></span>
@@ -42,7 +42,7 @@ images:
   - KPS 발표
 - 잡일
   - <span style="color: red">진해여고 날짜 잡기</span>
-  - <span style="color: red">진해여고 날짜 잡기</span>
+  - <span style="color: red">포항 날짜 잡기</span>
   - <span style="background-color: yellow">퀄리파이</span>
 
 ## 상세 소개
