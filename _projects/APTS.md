@@ -2,12 +2,14 @@
 title: APTS 실험 
 ---
 
+[ALICE ITS3 개발계획]({{site.baseurl}}{% link _posts/2023-09-20-ITS3_upgrade.md %})
+
 # 설명
 APTS는 Analogue Pixel Test Structure의 약자이다.
 APTS는 ITS3 업그레이드 계획 중에 개발된 검출기이다.
 ITS3에 사용하는 65nm 공정을 검증하기 위하여 개발되었다.
 
-- APTS 설명
+- [APTS 설명]({{site.baseurl}}{% link _posts/2023-09-20-APTS_explain.md %})
 - APTS 설치 및 기본 운용
 - Fe-55를 이용한 기본적인 실험 방법
 - 시드 및 매트릭스 시그널에 대한 고찰
