@@ -1,5 +1,5 @@
 ---
-title: 각 ALPIDE 칩의 문턱값
+title: Threshold of each chips
 tags:
   - ALPIDE
   - Threshold
