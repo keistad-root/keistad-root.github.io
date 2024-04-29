@@ -5,6 +5,50 @@ tags:
 use_math: true
 ---
 
+Setting and simulation results are shown. The specific explanation is located the end of this page.
+
+## Setting
+
+## Results
+
+### Doubled cluster
+For calculating the frequency of occuring double cluster, let two particles comes into $1mm^2$ area.
+From the previous experiments, the largest cluster size of a particle is 40 pixels.
+The area of pixel is $784\mathrm{\mu m^2}$ because of the pixel pitch is $28 \mathrm{\mu m}$.
+Thus the maximum area of a cluster is $31360 \mathrm{\mu m^2} = 3.136 \times 10^{-2} \mathrm{mm^2}$.
+Therefore the maximum radius of a cluster is obtained as $\sqrt {3.136 \times 10^{-2} \mathrm{mm^2} / pi} = 9.9991 \times 10^{-2} \mathrm{mm}$.
+It is same proposition that two clusters considered as a cluster(doubled cluster) with a distance between two centre of cluster is smaller then twice of cluster radius.
+The probability of the distance is smaller than diameter is extra of the distance is larger than diameter.
+Ignoring the border problem for convenience, later can be easily calculated by the ratio between total area and extra area excluding the circle area with the radius is diameter of cluster.
+Thus the probability is $(1\mathrm{mm^2} - \pi \times (9.9991 \times 10^{-2} \mathrm{mm^2} / 1\mathrm{mm^2})) = (1\mathrm{mm^2}-0.125\mathrm{mm^2})/1\mathrm{mm^2} = 0.87456$.
+Finally, the probability of doubled cluster by two simultaneously incdented particles is $1-0.87456=0.12544$.
+Generally the probability of doubled cluster by n particles incdent to $1\mathrm{mm^2}$ area simultaneously is $1-(0.87456)^n$.
+
+By GEANT4 simulation, n can be determined by Monte-Carlo method.
+It is necessary to know that the number ofparticles passed silicon detector and ther positions.
+From the min and max x and y value, the radius of incidenting particles area is defined as $(|maxX-minX|+|maxY-minY|) / 4$, so the incident area is $\pi [(|maxX-minX|+|maxY-minY|) / 4]^2$.
+Thus the density of particle is $(the number of particle) / [\pi [(|maxX-minX|+|maxY-minY|) / 4]^2]$.
+In real experiment, if particles incident to detector during $250\mu s$, the particles considered as simultaneous particle.
+Thes the number of particle incidented simultaneously is revealed as $250 \mu s \times [(\sharp\,particle) / [\pi [(X_{Mm}+Y_{Mm}) / 4]^2]]/[(\sharp\,source\,particle)/(Activity)]$.
+The n value and the probability of doubled cluster is shown as following table.
+
+|Distance <br> (source - detector)|$\phi$ of collimater|Air pressure|# particle|Area   |n          |Probability|
+|:-------------------------------:|:------------------:|:----------:|:--------:|:-----:|:---------:|:---------:|
+|2mm                              |1mm                 |1bar        |652       |7.13556|0.000391476|5.24698e-05|
+|2mm                              |2mm                 |1bar        |5693      |26.6347|0.000915752|0.000122735|
+|2mm                              |3mm                 |1bar        |17404     |65.9188|0.00113116 |0.000151603|
+|2mm                              |4mm                 |1bar        |36707     |112.129|0.00140255 |0.000187972|
+|3mm                              |1mm                 |1bar        |609       |19.569|0.000133332 |1.78709e-05|
+|3mm                              |2mm                 |1bar        |5541      |84.7368|0.000280157|3.755e-05  |
+|3mm                              |3mm                 |1bar        |17038     |173.147|0.000421588|5.65058e-05|
+|3mm                              |4mm                 |1bar        |36514     |1265.67|0.000123602|1.65668e-05|
+|4mm                              |1mm                 |1bar        |615       |35.4487|7.43294e-05|9.96264e-06|
+|4mm                              |2mm                 |1bar        |5478      |149.687|0.000156792|2.10153e-05|
+|4mm                              |3mm                 |1bar        |17153     |691.408|0.00010629 |1.42464e-05|
+|4mm                              |4mm                 |1bar        |35404     |1548.16|9.79763e-05|1.31321e-05|
+
+
+
 ## Geant4 Simulation
 The purpose of this simulation is to calculate the deposite enrgy of alpha, beta and gamma in ALPIDE silicon detector.
 ALPIDE can be devided by two parts, circut part and collection part.
@@ -83,4 +127,5 @@ In stepping stage, the kind, kinetic energy and direction of particle, and pre/p
 Lastly, particle ID, position and direction of particle and the number of volume and energy loss and even whether any particle pass the volume or not could be known by tTrack tree.
 The energy loss histograms of tTrack tree must be crucial to analyse cluster size of ALPIDE.
 
-## Results
+
+

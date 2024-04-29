@@ -2,7 +2,7 @@
 layout: defaults/page
 permalink: index.html
 narrow: true
-title: KEIWIKI에 오신 것을 환영합니다.
+title: WELCOME TO MY BLOG
 ---
 
 ## Purpose of website

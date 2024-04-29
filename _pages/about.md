@@ -2,7 +2,7 @@
 layout: defaults/page
 permalink: about.html
 narrow: true
-title: 이 페이지에 대한 더 많은 설명
+title: Details
 images:
   - https://images.unsplash.com/photo-1421789665209-c9b2a435e3dc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5b1016b885e7438c4633109d77368d4d&auto=format&fit=crop&w=1651&q=80
   - https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=468a8c18f5d811cf03c654b653b5089e&auto=format&fit=crop&w=1650&q=80
@@ -26,7 +26,7 @@ images:
 - Network
   - Construction monitoring system
 
-## Details
+## Detailed Informations
 - Name
   - 최용준, 崔容準, Yongjun Choi
 - Birth
@@ -37,8 +37,8 @@ images:
 - Status
   - Master student 
 - Proceeding Research
-  - 디지털 실리콘 검출기를 이용한 저에너지 입자 식별
-  - 아날로그 검출기의 특성 조사
+  - Low energy particle identification using digital silicon detector
+  - Test for analogue silicon detector.
 - Service Jobs
   - Introduction of meeting and writing protocol (01.2021 ~ 07.2022)
   - Management of webpage (08.2022 ~ 08.2023)

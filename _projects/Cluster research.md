@@ -33,6 +33,8 @@ Exploring the specification of particle
   - Basic set-up
   - Source
   - 2 ALPIDE
+- Set-up 3. Final Mosaic set-up
+  - [Basic set-up]({{site.baseurl}}{% link _posts/csr/2023-03-20-Final_set_up.md %})
 
 ## Chip Information
 - Old ALPIDE: A4W975R7
@@ -41,10 +43,9 @@ Exploring the specification of particle
 
 [Threshold distribution of each chips]({{site.baseurl}}{% link _posts/csr/2023-08-02-ALPIDE-Threshold.md %})
 
-
 ## Analysis procedure
 - [Excluding hot pixels by pedestal measurement]({{ site.baseurl }}{% link _posts/csr/2023-07-31-Hot_pixel.md %})
-- Clustering methode
+- [Clustering methode]({{site.baseurl}}{% link _posts/csr/2024-03-13-Clustering_method.md %})
 - Correlation of 2 ALPIDE
 - Uncertainty
 
