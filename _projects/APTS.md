@@ -1,18 +1,23 @@
 ---
-title: APTS 실험 
+title: APTS uniformity test
 ---
 
-# 설명
-APTS는 Analogue Pixel Test Structure의 약자이다.
-APTS는 ITS3 업그레이드 계획 중에 개발된 검출기이다.
-ITS3에 사용하는 65nm 공정을 검증하기 위하여 개발되었다.
-
-- APTS 설명
-- APTS 설치 및 기본 운용
+# Detail
+- [APTS Basic description]({{ site.baseurl }}{% link _posts/apts/2023-07-14-APTS_detailed.md %})
 - Fe-55를 이용한 기본적인 실험 방법
 - 시드 및 매트릭스 시그널에 대한 고찰
 
-# 재고
+# Physics
+
+- Signals (seed signal and matrix signal)
+- Cluster size
+- Capacitance
+- Noise
+- Charge collection efficiency
+
+# Materials
+
+## Inventory
 - DAQ board
 
 - Proximity board
@@ -20,3 +25,19 @@ ITS3에 사용하는 65nm 공정을 검증하기 위하여 개발되었다.
 
 - APTS
   - AF15P_W22B32
+
+# Method
+
+## Experiment Method
+- [APTS Basic operation]({{ site.baseurl }}{% link _posts/apts/2023-07-14-APTS_installation.md %})
+
+## Analysis Method
+- Calibration
+- Signal extraction
+- Data quality plots
+- Data analysis plots
+
+# Results
+- Uniformity tests
+- Same proximity board and different chips
+- different proximity boards and same chip
