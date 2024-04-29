@@ -32,7 +32,7 @@ title: APTS uniformity test
 - [APTS Basic operation]({{ site.baseurl }}{% link _posts/apts/2023-07-14-APTS_installation.md %})
 
 ## Analysis Method
-- Calibration
+- [Calibration]({{ site.baseurl }}{% link _posts/apts/2024-04-29-APTS_calibration.md %})
 - Signal extraction
 - Data quality plots
 - Data analysis plots
