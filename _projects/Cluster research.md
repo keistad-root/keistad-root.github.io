@@ -38,8 +38,8 @@ Exploring the specification of particle
 
 ## Chip Information
 - Old ALPIDE: A4W975R7
-- Bronze ALPIDE: T854192 25T 02/4C
-- Sirver ALPIDE: T968874W16T-B2 (Used)
+- Bronze ALPIDE: T854192 25T 02/4C (Used after 11.23)
+- Sirver ALPIDE: T968874W16T-B2 (Used->Broken(09.23))
 
 [Threshold distribution of each chips]({{site.baseurl}}{% link _posts/csr/2023-08-02-ALPIDE-Threshold.md %})
 
@@ -55,6 +55,8 @@ Exploring the specification of particle
 - [Am-241 Hitmap and Clustermap in vacuum]({{ site.baseurl }}{% link _posts/alpide/2023-08-08-ALPIDE_vacuum_hitmap.md %})
 - Small solid angle
 - [Sr-90 Hitmap and Clustermap in air]({{ site.baseurl}}{% link _posts/csr/2024-03-11-90Sr_air.md %})
+- [Sr-90 in APTS]({{site.baseurl}}{%link _posts/csr/2024-04-30-APTS_Sr_90.md%})
+- [Am-241 in APTS]({{site.baseurl}}{%link _posts/csr/2024-04-30-APTS_Am_241.md%})
 
 ## Analysis
 - [air vs. vacuum]({{site.baseurl}}{% link _posts/alpide/2023-08-08-Comparison_air_vacuum.md %})

@@ -39,6 +39,8 @@ title: APTS uniformity test
 
 # Results
 - [According to VBB]({{site.baseurl}}{% link _posts/apts/2024-04-30-APTS_VBB.md%})
-- Uniformity tests
-- Same proximity board and different chips
-- different proximity boards and same chip
+- [Uniformity tests]({{site.baseurl}}{% link _posts/apts/2024-04-30-APTS_uniformity_test.md%})
+- [Proximity boards and Chips]({{site.baseurl}}{% link _posts/apts/2024-04-30-APTS_uniformity_test_diff_set_up.md%})
+
+# Unsolved
+- [Bit flip]({{site.baseurl}}{% link _posts/apts/2024-04-30-bit_flip.md%})
