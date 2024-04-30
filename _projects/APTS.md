@@ -4,19 +4,17 @@ title: APTS uniformity test
 
 # Detail
 - [APTS Basic description]({{ site.baseurl }}{% link _posts/apts/2023-07-14-APTS_detailed.md %})
-- Fe-55를 이용한 기본적인 실험 방법
-- 시드 및 매트릭스 시그널에 대한 고찰
 
 # Physics
-
 - Signals (seed signal and matrix signal)
 - Cluster size
 - Capacitance
-- Noise
+- Noise 
 - Charge collection efficiency
 
 # Materials
-
+- Power Supply
+  
 ## Inventory
 - DAQ board
 
@@ -30,14 +28,17 @@ title: APTS uniformity test
 
 ## Experiment Method
 - [APTS Basic operation]({{ site.baseurl }}{% link _posts/apts/2023-07-14-APTS_installation.md %})
+- APTS pulse test
+- APTS source test with 55Fe
 
 ## Analysis Method
 - [Calibration]({{ site.baseurl }}{% link _posts/apts/2024-04-29-APTS_calibration.md %})
 - Signal extraction
-- Data quality plots
-- Data analysis plots
+- [Data quality plots]({{site.baseurl}}{% link _posts/apts/2024-04-30-APTS_data_quality_plots.md %})
+- [Data analysis plots]({{site.baseurl}}{% link _posts/apts/2024-04-30-APTS_analysis_plots.md%})
 
 # Results
+- [According to VBB]({{site.baseurl}}{% link _posts/apts/2024-04-30-APTS_VBB.md%})
 - Uniformity tests
 - Same proximity board and different chips
 - different proximity boards and same chip

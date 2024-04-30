@@ -1,12 +1,11 @@
 ---
-title: APTS 설치 및 운용
+title: APTS Basic operation
 tags:
   - MLR1
   - APTS
   - ALICE
 use_math: true
 ---
-
 
 ## APTS initial test
 The procedure of initial test of APTS is checking inital performance such likes resistance of chips and electric test.
@@ -50,51 +49,51 @@ The level of resistance between Pwell and Psub should be $\mathrm{k \Omega}$ and
     - Pwell and Psub are connected to Vbb channel using 2to1 LEMO connector. [Filter board](https://twiki.cern.ch/twiki/bin/view/ALICE/ITS3WP3FilterVbb) is plugged between LEMO connector and Vbb channel for removing noise. One more checking polarity.
     - Connect to computer via USB cable.
   - Plug proximity board to DAQ board.
-    - 점퍼가 올바른 위치에 꽂혀 있는 지 확인한다. ([mlr1 daq firmware](https://twiki.cern.ch/twiki/bin/view/ALICE/ITS3WP3FilterVbb) J3->Isa(프록시미티 보드 v2에는 존재하지 않음), J5->TEMP)
-  - 칩 캐리어 보드를 [프록시미티 보드](https://twiki.cern.ch/twiki/bin/view/ALICE/ITS3WP3MLR1TestSystem)에 연결한다.
-  - 광원으로 부터 실험 셋업을 고립시킨다.
-- 0Vbb에서 펄스 측정
-  - Vbb 채널과 파워 채널을 켠다.
-    - 파워 채널 전류 $\sim 370\mathrm{mA}$
-    - Vbb 채널 전류 $<0.1\mathrm{mA}$
-  - fx3와 fpga를 `mlr1-daq-program --fx3 path-to/fx3.img --fpga path-to/0xXXXXXX.bit`을 이용해서 설치한다.
-    - 최신 fpga .bit 버전을 가지고 있는 지 확인 ([펌웨어](https://twiki.cern.ch/twiki/bin/view/ALICE/MLR1DAQBoardFirmware) 확인)
-    - 파워 채널 전류 $\sim 415\mathrm{mA}$
-    - Vbb 채널 전류 $<0.1\mathrm{mA}$
-  - `python apts_power_on.py PROXIMITY_VERSION`를 이용해서 칩에 전원을 공급한다.
-    - $5 \mathrm{mA} <$ $I_a$ 전류 (터미널에 출력) $< 7 \mathrm{mA}$
-      - 멀티플렉서 칩의 경우 $21\mathrm{mA}$ 정도의 값이 출력된다.
-    - Vbb 채널 전류 $<0.1\mathrm{mA}$
-  - `python test_pulsing.py PROXIMITY_VERSION CHIP_ID -p f`를 실행한다.
-    - 모든 픽셀에 대해 시그널이 출력되는 지 확인한다.
-    - 파워 채널 전류 $\sim 720\mathrm{mA}$
-    - Vbb 채널 전류 $<0.1\mathrm{mA}$
-    - 펄스의 개형과 절대값을 확인한다.
-  - `apts_power_off.py`을 이용해서 칩의 전원을 끈다.
-  - 파워 채널과 Vbb 채널을 끈다.
-- 높은 Vbb에서 펄스 측정
-  - Vbb 채널과 파워 채널을 켠다.
-    - 파워 채널 전류 $\sim 370\mathrm{mA}$
-    - Vbb 채널 전류 $<0.1\mathrm{mA}$
-  - fx3와 fpga를 `mlr1-daq-program --fx3 path-to/fx3.img --fpga path-to/0xXXXXXX.bit`을 이용해서 설치한다.
-    - 최신 fpga .bit 버전을 가지고 있는 지 확인 ([펌웨어](https://twiki.cern.ch/twiki/bin/view/ALICE/MLR1DAQBoardFirmware) 확인)
-    - 파워 채널 전류 $\sim 415\mathrm{mA}$
-    - Vbb 채널 전류 $<0.1\mathrm{mA}$
-  - 0 Vbb에서 측정을 하였다면, Vbb를 4.8V까지 0.3V씩 증가시킨다.
-    - Vbb 채널 전류 $<0.5\mathrm{mA}$
-  - `python apts_power_on.py PROXIMITY_VERSION`를 이용해서 칩에 전원을 공급한다.
-    - $5 \mathrm{mA} <$ $I_a$ 전류 (터미널에 출력) $< 7 \mathrm{mA}$
-      - 멀티플렉서 칩의 경우 $21\mathrm{mA}$ 정도의 값이 출력된다.
-    - Vbb 채널 전류 $<0.5\mathrm{mA}$
-  - `python test_pulsing.py PROXIMITY_VERSION CHIP_ID -p f`를 실행한다.
-    - 모든 픽셀에 대해 시그널이 출력되는 지 확인한다.
-    - 파워 채널 전류 $\sim 720\mathrm{mA}$
-    - Vbb 채널 전류 $<0.5\mathrm{mA}$
-    - 펄스의 개형과 절대값을 확인한다.
-  - `apts_power_off.py`을 이용해서 칩의 전원을 끈다.
-  - 파워 채널과 Vbb 채널을 끈다.
+    - Check the jumper is pluged to correct position. (Refer to [mlr1 daq firmware](https://twiki.cern.ch/twiki/bin/view/ALICE/ITS3WP3FilterVbb) J3->Isa(It doesn't exist on proximity board v2.), J5->TEMP)
+  - Connect chip carrier board to [proximity board](https://twiki.cern.ch/twiki/bin/view/ALICE/ITS3WP3MLR1TestSystem)
+  - Isolate expeirment setup from light source.
+- Pulse measurement on 0 VBB
+  - Turn on Vbb channel and power channel.
+    - Reference current on power channel $\sim 370\mathrm{mA}$
+    - Reference current on VBB channel $<0.1\mathrm{mA}$
+  - Install fx3 and fpga via `mlr1-daq-program --fx3 path-to/fx3.img --fpga path-to/0xXXXXXX.bit`.
+    - Check the version of fpga.bit is laatest. (Check [Firmware](https://twiki.cern.ch/twiki/bin/view/ALICE/MLR1DAQBoardFirmware))
+    - Reference current on power channel $\sim 415\mathrm{mA}$
+    - Reference current on VBB channel $<0.1\mathrm{mA}$
+  - Suppy power to APTS chip via `python apts_power_on.py PROXIMITY_VERSION`.
+    - $5 \mathrm{mA} <$ $I_a$(Print on terminal) $< 7 \mathrm{mA}$
+      - In case of multiplexer APTS, about $21\mathrm{mA}$ is printed out as analogue current.
+    - Reference current on VBB channel $<0.1\mathrm{mA}$
+  - Execute `python test_pulsing.py PROXIMITY_VERSION CHIP_ID -p f` to give pulse.
+    - Check the pulse signal is printed out for all pixels.
+    - Reference current on power channel $\sim 720\mathrm{mA}$
+    - Reference current on VBB channel $<0.1\mathrm{mA}$
+    - Check the shape of pusle and amplitude value.
+  - Power of the chip via `apts_power_off.py`.
+  - Turn of power channel and VBB channel.
+- - Pulse measurement on high VBB
+  - Turn on Vbb channel and power channel.
+    - Reference current on power channel $\sim 370\mathrm{mA}$
+    - Reference current on VBB channel $<0.1\mathrm{mA}$
+  - Install fx3 and fpga via `mlr1-daq-program --fx3 path-to/fx3.img --fpga path-to/0xXXXXXX.bit`.
+    - Check the version of fpga.bit is laatest. (Check [Firmware](https://twiki.cern.ch/twiki/bin/view/ALICE/MLR1DAQBoardFirmware))
+    - Reference current on power channel $\sim 415\mathrm{mA}$
+    - Reference current on VBB channel $<0.1\mathrm{mA}$
+  - If VBB is indicated 0V, then increase VBB to 4.8V with step as 0.3V.
+    - Reference current on VBB channel $<0.5\mathrm{mA}$
+  - Suppy power to APTS chip via `python apts_power_on.py PROXIMITY_VERSION`.
+    - $5 \mathrm{mA} <$ $I_a$(Print on terminal) $< 7 \mathrm{mA}$
+      - In case of multiplexer APTS, about $21\mathrm{mA}$ is printed out as analogue current.
+    - Reference current on VBB channel $<0.5\mathrm{mA}$
+  - Execute `python test_pulsing.py PROXIMITY_VERSION CHIP_ID -p f` to give pulse.
+    - Check the pulse signal is printed out for all pixels.
+    - Reference current on power channel $\sim 720\mathrm{mA}$
+    - Reference current on VBB channel $<0.5\mathrm{mA}$
+    - Check the shape of pusle and amplitude value.
+  - Power of the chip via `apts_power_off.py`.
+  - Turn of power channel and VBB channel.
 
-### 실험 결과
-- 0.0Vbb를 걸어줬을 때 펄스의 절대값과 그 개형
+### Result
+- The amplitude and shape of pulse when 0.0VBB
 
-- 4.8Vbb를 걸어줬을 때 펄스의 절대값과 그 개형
+- The amplitude and shape of pulse when 4.8VBB

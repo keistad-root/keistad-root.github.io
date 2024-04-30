@@ -7,7 +7,6 @@ tags:
 use_math: true
 ---
 
-
 ## Background
 APTS is short form of Analogue Pixel Test Structure.
 It is designed in ITS3 upgrade project.
