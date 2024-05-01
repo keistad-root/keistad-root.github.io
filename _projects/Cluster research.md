@@ -19,6 +19,7 @@ Exploring the specification of particle
 - MAPS structure
 - [Energy distribution]({{ site.baseurl }}{% link _posts/csr/2024-03-07-energy_distribution.md %})
 - [Simulation results]({{ site.baseurl }}{% link _posts/csr/2024-03-06-simulation.md %})
+- [Garfield simulatin]({{site.baseurl}}{%link _posts/csr/2024-04-30-Garfield_simulation.md%})
 - 
 
 ## Experimental set-up
@@ -35,6 +36,8 @@ Exploring the specification of particle
   - 2 ALPIDE
 - Set-up 3. Final Mosaic set-up
   - [Basic set-up]({{site.baseurl}}{% link _posts/csr/2023-03-20-Final_set_up.md %})
+
+[Minor Methods]({{site.baseurl}}{% link _posts/csr/2024-05-01-Minor_methods.md %})
 
 ## Chip Information
 - Old ALPIDE: A4W975R7
@@ -57,8 +60,10 @@ Exploring the specification of particle
 - [Sr-90 Hitmap and Clustermap in air]({{ site.baseurl}}{% link _posts/csr/2024-03-11-90Sr_air.md %})
 - [Sr-90 in APTS]({{site.baseurl}}{%link _posts/csr/2024-04-30-APTS_Sr_90.md%})
 - [Am-241 in APTS]({{site.baseurl}}{%link _posts/csr/2024-04-30-APTS_Am_241.md%})
-
+- [Cluster Shape]({{site.baseurl}}{%link _posts/csr/2024-04-30-Cluster_shape.md%})
+  
 ## Analysis
+- [Cluster Spacification]({{site.baseurl}}{% link _posts/csr/2024-05-01-Doubled_cluster.md %})
 - [air vs. vacuum]({{site.baseurl}}{% link _posts/alpide/2023-08-08-Comparison_air_vacuum.md %})
 - [Cluster size]({{site.baseurl}}{% link _posts/alpide/2023-09-07-Cluster_size_explaination.md %})
 
@@ -68,3 +73,5 @@ Exploring the specification of particle
 [Analysis Tools(https://github.com/keistad-root/alpex.git)](https://github.com/keistad-root/alpex.git)
 
 [Expected pixel generator(https://github.com/keistad-root/quid.git)](https://github.com/keistad-root/quid.git)
+
+Above url link are closed. The anschluss code is [ATOM(https://github.com/keistad-root/ATOM)](https://github.com/keistad-root/ATOM).
