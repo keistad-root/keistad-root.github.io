@@ -17,7 +17,7 @@ Vacuum chamber
 정리 해야함 
 Beamtest
 Network system
-SQM2022 페이제 제작
+SQM2022 페이지 제작
 
 {% for project in site.projects %}
 - [{{ project.title }}]({{ site.baseurl }}{{ project.url }})

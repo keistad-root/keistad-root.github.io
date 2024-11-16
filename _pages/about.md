@@ -12,33 +12,36 @@ images:
 ## Purpose of website
 
 {% include components/intro.md %}
-
-## To-do lists (2024/02/28 14:28)
-- APTS
-  - Make analysis code with c++
-  - Summary
-- PID project
-  - Tilted trajectory of alpha
-  - experiments with 90Sr
-    - 2 ALPIDE
-    - with Scintillator
-  - Summary
-- Network
-  - Construction monitoring system
-
 ## Detailed Informations
 - Name
-  - 최용준, 崔容準, Yongjun Choi
+  - Korean: 최용준
+  - English: Yongjun Choi
+  - Chinese Character: 崔容準
 - Birth
   - 16th July 1998
+- Education
+  - Primary School Graduate ( March 2005 - February 2011 )
+    - Deoksang Primary School
+  - Middle School Graduate ( March 2011 - February 2014 )
+    - Silla Middle School
+  - High School Graduate ( March 2014 - February 2016 )
+    - Sungdo High School
+  - Bachelor's degree ( March 2017 - August 2022 )
+    - Pusan National University
+    - Major: Physics
+    - Grade: 4.03 / 4.50 (8th)
+  - Master's degree ( September 2022 - Now )
+    - Pusan National University
+    - Major: Physics
+    - Grade: 4.00 / 4.50 (3rd)
+
 - Affiliation
-  - Heavy Ion Physics Experiments lab, Pusan National University
-  - A Large Ion Colliding Experiments, CERN
-- Status
-  - Master student 
+  - ( December 2020 - Now ) Heavy Ion Physics Experiments lab, Pusan National University
+  - ( July 2022 - Now ) A Large Ion Colliding Experiments, CERN ()
+
+
 - Proceeding Research
   - Low energy particle identification using digital silicon detector
-  - Test for analogue silicon detector.
 - Service Jobs
   - Introduction of meeting and writing protocol (01.2021 ~ 07.2022)
   - Management of webpage (08.2022 ~ 08.2023)
