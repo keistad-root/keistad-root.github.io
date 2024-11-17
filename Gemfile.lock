@@ -67,6 +67,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-23
+  x64-mingw-ucrt
 
 DEPENDENCIES
   faraday-retry (~> 2.2)
