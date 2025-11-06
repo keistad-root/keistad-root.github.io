@@ -24,6 +24,15 @@ title: 출판 및 발표
 		</ul>
 	</li>
 </ul>
+<ul>
+	<li> 2025년 11월 06일
+		<ul>
+			<li>제목: Visual Inpsection - ALTAI
+			<li>미팅 주소: <a href="https://indico.cern.ch/event/1591805/">https://indico.cern.ch/event/1591805/</a></il>
+		</ul>
+	</li>
+</ul>
+
 
 ### KoALICE Tracker Meeting
 <details><summary>열기</summary>
