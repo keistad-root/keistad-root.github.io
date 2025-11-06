@@ -1,18 +1,6 @@
-- caption: Keistad-root on GitHub
+- caption: 깃허브 Keistad-root
   href: https://github.com/keistad-root/keistad-root.github.io
   icon: entypo/github.svg
-
-- caption: Stack Overflow
-  href: https://stackoverflow.com
-  icon: icons/stackoverflow.svg
-
-- caption: Facebook
-  href: https://www.facebook.com
-  icon: entypo/facebook.svg
-
-- caption: Twitter
-  href: https://www.twitter.com
-  icon: entypo/twitter.svg
 
 - caption: Busan
   href: https://www.google.com/maps/place/대한민국+부산광역시/@35.189234,128.8688547,11z/data=!3m1!4b1!4m6!3m5!1s0x3568eb6de823cd35:0x35d8cb74247108a7!8m2!3d35.2100142!4d129.0688702!16zL20vMGh2N2w?entry=ttu

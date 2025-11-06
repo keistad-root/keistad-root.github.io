@@ -1,0 +1,10 @@
+
+<div class="grid-container">
+  {% for project in site.projects %}
+    <div class="grid-item">
+      <a href="{{ project.url | absolute_url }}">
+        <h4>{{ project.title }}</h4>
+      </a>
+    </div>
+  {% endfor %}
+</div>

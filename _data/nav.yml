@@ -1,17 +1,8 @@
-- title: Home
+- title: 홈
   href: index.html
 
-- title: About
-  href: about.html
-
-- title: Hobby
+- title: 취미
   href: hobby.html
 
-- title: Publication
+- title: 출판물
   href: publication.html
-
-- title: Posts
-  href: list/posts.html
-
-- title: Documentation
-  href: list/projects.html

@@ -13,7 +13,6 @@ ALPIDE is short form of ALice PIxel Detector.
   - Old: $28\mathrm{\mu m} \times 28 \mathrm{\mu m}$
   
 Reference Paper
-- [ALPIDE, the Monolithic Active Pixel Sensor for the ALICE ITS upgrade]({{ site.baseurl }}{% link theme/paper/ALPIDE, the Monolithic Active Pixel Sensor for the ALICE ITS upgrade.pdf %})
 
 MAPS:
 

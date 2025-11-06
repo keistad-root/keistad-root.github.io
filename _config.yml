@@ -9,8 +9,8 @@ excerpt_separator: "\n\n"
 incremental: false
 
 # Config for your profile.
-title:            KEIWIKI            # Site title
-name:             Yongjun Choi            # Your name
+title:            BLOG            # Site title
+name:             최용준            # Your name
 avatar:           /theme/img/photo.JPG   # Path to an avatar image
 
 # The theme uses the baseurl throughout, which is useful for running the entire
@@ -52,7 +52,8 @@ defaults:
     scope:
       path: "_posts"
     values:
-      show_profile: false
+      show_profile: true
+      narrow: true
       layout: defaults/post
   -
     scope:
@@ -64,7 +65,8 @@ defaults:
     scope:
       path: "_projects"
     values:
-      show_profile: false
+      show_profile: true
+      narrow: true
       layout: defaults/project
   -
     scope:

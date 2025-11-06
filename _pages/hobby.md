@@ -2,13 +2,13 @@
 layout: defaults/page
 permalink: hobby.html
 narrow: true
-title: Hobby
+title: 취미 활동
 ---
 
-## Club
+## 동아리
 
 
-## Travel
+## 여행
 
 ### Amsterdam, Netherland [17th June 2024]
 

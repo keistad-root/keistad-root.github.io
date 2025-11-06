@@ -1,5 +1,8 @@
 ---
-title: APTS uniformity test
+layout: defaults/project
+narrow: true
+show_profile: true
+title: APTS 균일성
 ---
 
 # Detail

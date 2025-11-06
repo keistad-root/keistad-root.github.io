@@ -1,20 +1,18 @@
 ---
-title: Cluster size research of digital monolithic pixel active silicon detector.
+layout: defaults/project
+narrow: true
+show_profile: true
+title: ALPIDE에서 클러스터 크기 연구
 ---
 
-## To-do list
-- Summary
+## 목적
+클러스터 크기 분포로부터 입사 입자의 종류와 입사 에너지를 확인한다.
 
-## Purpose
-Find the factors effect to cluster size. 
-- Deposit energy
-- Inner structure of ALPIDE
-  
-Exploring the specification of particle 
-- Particle identificiation
-- Incident enrgy of particle
+## 이론
 
-## Principles
+[베테-블로흐 공식]({{site.baseurl}}{% link _posts/2025-09-10-bethe_bloch_formula.md %})
+
+
 [Define terminology]({{ site.baseurl }}{% link _posts/csr/2024-02-29-terminology.md %})
 - MAPS structure
 - [Energy distribution]({{ site.baseurl }}{% link _posts/csr/2024-03-07-energy_distribution.md %})
