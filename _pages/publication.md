@@ -19,19 +19,20 @@ title: 출판 및 발표
 <ul>
 	<li> 2025년 11월 06일
 		<ul>
-			<li>제목: Visual Inpsection in PNU
-			<li>미팅 주소: <a href="https://indico.cern.ch/event/1608656/">https://indico.cern.ch/event/1608656/</a></il>
+			<li>제목: Visual Inpsection in PNU</li>
+			<li>미팅 주소: <a href="https://indico.cern.ch/event/1608656/">https://indico.cern.ch/event/1608656/</a></li>
 		</ul>
 	</li>
 </ul>
 <ul>
 	<li> 2025년 11월 06일
 		<ul>
-			<li>제목: Visual Inpsection - ALTAI
-			<li>미팅 주소: <a href="https://indico.cern.ch/event/1591805/">https://indico.cern.ch/event/1591805/</a></il>
+			<li>제목: Visual Inpsection - ALTAI</li>
+			<li>미팅 주소: <a href="https://indico.cern.ch/event/1591805/">https://indico.cern.ch/event/1591805/</a></li>
 		</ul>
 	</li>
 </ul>
+</details>
 
 
 ### KoALICE Tracker Meeting
