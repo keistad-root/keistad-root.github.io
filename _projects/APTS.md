@@ -5,6 +5,7 @@ show_profile: true
 title: APTS 균일성
 ---
 
+<!-- 
 # Detail
 - [APTS Basic description]({{ site.baseurl }}{% link _posts/apts/2023-07-14-APTS_detailed.md %})
 
@@ -47,3 +48,4 @@ title: APTS 균일성
 
 # Unsolved
 - [Bit flip]({{site.baseurl}}{% link _posts/apts/2024-04-30-bit_flip.md%})
+-->

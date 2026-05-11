@@ -5,6 +5,7 @@ show_profile: true
 title: ALPIDE에서 클러스터 크기 연구
 ---
 
+<!-- 
 ## 목적
 클러스터 크기 분포로부터 입사 입자의 종류와 입사 에너지를 확인한다.
 
@@ -73,3 +74,4 @@ title: ALPIDE에서 클러스터 크기 연구
 [Expected pixel generator(https://github.com/keistad-root/quid.git)](https://github.com/keistad-root/quid.git)
 
 Above url link are closed. The anschluss code is [ATOM(https://github.com/keistad-root/ATOM)](https://github.com/keistad-root/ATOM).
+-->
