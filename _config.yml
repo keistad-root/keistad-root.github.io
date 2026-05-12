@@ -10,7 +10,7 @@ incremental: false
 
 # Config for your profile.
 title:            BLOG            # Site title
-name:             최용준            # Your name
+name:             Yongjun Choi            # Your name
 avatar:           /theme/img/photo.JPG   # Path to an avatar image
 
 # The theme uses the baseurl throughout, which is useful for running the entire

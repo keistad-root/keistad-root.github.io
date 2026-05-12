@@ -2,7 +2,7 @@
 layout: defaults/page
 permalink: index.html
 narrow: true
-title: 반갑습니다!
+title: 메인 페이지
 ---
 
 ## 주제
@@ -34,7 +34,8 @@ title: 반갑습니다!
   - 졸업 논문: 아날로그 픽셀 센서(APTS, Analogue Pixel Test Structure)의 특성 측정 및 ^241^Am을 이용한 ALICE 픽셀 검출기(ALPIDE, ALICE Pixel Detector)의 클러스터 크기 연구
   
 ## 경력
-- 군
+
+- 병역
   - 기간: 2019년 03월 ~ 2021년 01월
   - 부대: 제11전투비행단
   - 보직: 유류보급저장병
