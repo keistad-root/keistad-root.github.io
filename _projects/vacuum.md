@@ -3,7 +3,7 @@ layout: defaults/project
 narrow: true
 show_profile: true
 use_math: true
-title: 진공 챔버에 관한 연구
+title: Vacuum chamber
 ---
 
 

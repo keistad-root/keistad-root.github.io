@@ -2,7 +2,7 @@
 layout: defaults/project
 narrow: true
 show_profile: true
-title: ALPIDE에서 클러스터 크기 연구
+title: Cluster size on ALPIDE
 ---
 
 <!-- 

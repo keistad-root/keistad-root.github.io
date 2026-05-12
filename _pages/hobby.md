@@ -2,18 +2,18 @@
 layout: defaults/page
 permalink: hobby.html
 narrow: true
-title: 취미 활동
+title: Hobby
 ---
 
-## 동아리
+## Club
 
 
-## 여행
+## Travel
 
 ### Amsterdam, Netherland [17th June 2024]
 
 - [Picture]({{site.baseurl}}{% link _posts/hobby/2024-06-17-Amsterdam_picture.md %})
 
-### 일본 오사카 [2026년 02월 17일 - 2026년 02월 19일]
+### Osaka, Japan [17th February 2026 - 19th February 2026]
 
 - [Picture]({{site.baseurl}}{% link _posts/hobby/2026-02-17-Osaka.md %})

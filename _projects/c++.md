@@ -2,7 +2,7 @@
 layout: defaults/project
 narrow: true
 show_profile: true
-title: C++ 언어
+title: Programming language
 ---
 <!-- 
 ## C++ 기본 사항
